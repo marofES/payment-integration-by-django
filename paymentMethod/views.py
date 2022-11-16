@@ -76,7 +76,7 @@ class CreateCheckOutSession(APIView):
                 #cancel_url=settings.SITE_URL + '?canceled=true',
                 cancel_url=SITE_URL + '?canceled=true',
             )
-            print('checkout_session ',checkout_session)
+            print('checkout_session i ',checkout_session)
             #return redirect(checkout_session.url)
             return Response({'checkout_session_url':checkout_session.url},status=status.HTTP_200_OK)
         except Exception as e:
