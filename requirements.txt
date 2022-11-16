@@ -1,0 +1,9 @@
+Django==4.0.1
+django-cors-headers==3.13.0
+djangorestframework==3.14.0
+django-rest-swagger==2.2.0
+django-dotenv==1.4.2
+requests==2.23.0
+sslcommerz-lib==1.0
+stripe==2.64.0
+python-dotenv==0.21.0
